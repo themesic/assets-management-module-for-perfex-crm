@@ -1,20 +1,72 @@
 ---
-description: How to enable and activate Invoicing module for Concord CRM
+description: How to install and activate the Assets Management Module for Perfex CRM
 ---
 
-# 🛠️ Activating the module
+# 🛠️ Activating the Module
 
-<figure><img src="https://themesic-docs.gitbook.io/~gitbook/image?url=https%3A%2F%2F406199808-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FL999fc1hpEZuODnHQ0MV%252Fuploads%252FRLO3yNPUdHulfizNaYQR%252Fhow-to-install-a-module-at-concord-crm.gif%3Falt%3Dmedia%26token%3D6be89f71-90d2-46f5-8d08-fd1eecdff411&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=25899f06&#x26;sv=2" alt=""><figcaption></figcaption></figure>
+Follow these steps to install and activate the Assets Management Module in Perfex CRM.
 
-Module can be downloaded through CodeCanyon's [**Downloads**](https://codecanyon.net/downloads) section. Please ensure that you are running an up to date Concord CRM copy and download both item's zip and your license key.
+---
 
-<figure><img src="https://themesic-docs.gitbook.io/~gitbook/image?url=https%3A%2F%2F406199808-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FL999fc1hpEZuODnHQ0MV%252Fuploads%252FFZZvnD4V8shxMnnrIfGT%252Fimage.png%3Falt%3Dmedia%26token%3D3d22cae7-387f-4294-92e3-ef2e4e4c311a&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=2a5bbafb&#x26;sv=2" alt=""><figcaption></figcaption></figure>
+### 1. 📥 Download the Module
 
-**Prepare the Module for Upload** Locate the zip file you just downloaded. This zip file is the actual module file that needs to be uploaded to Concord CRM.
+1. Go to [CodeCanyon Downloads](https://codecanyon.net/downloads)
+2. Download the **Assets Management Module** zip file
+3. Save your **Envato License Key** — you'll need it for activation
 
-![](https://themesic-docs.gitbook.io/~gitbook/image?url=https%3A%2F%2F406199808-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FL999fc1hpEZuODnHQ0MV%252Fuploads%252FvEEPg9UnTEepHMyvbAOK%252Fimage.png%3Falt%3Dmedia%26token%3D8d89c333-884c-4f34-876b-cb21a873a5fa\&width=768\&dpr=4\&quality=100\&sign=5c3fd7d8\&sv=2)
+---
 
-1. **Upload the Module** Log in to your Concord CRM account and navigate to the **Modules** section from the main menu. Look for an option to upload a new module. Select the zip file and complete the upload process. Concord CRM will process the file and add it to the list of available modules. A "refresh page" prompt will be shown in the top right corner, please press it.
-2. **Activate the Module** After the upload is complete, locate your new module in the list of available modules. You’ll see an option to activate it—click **Enable**. This will make the module accessible within Concord CRM, but there’s one final step to finalize activation.
-3. **Run Potential Migrations** An extra screen might appear there, in order for you to merge the potentially available migrations. Press the necessary button to apply migrations.
-4. **Enter Your Envato License Key** After activating, you’ll be redirected to the module’s settings page. Here, you will need to enter the Envato license key that you downloaded earlier from CodeCanyon. Enter the key, then click **Activate** to complete the activation process.
+### 2. 📤 Upload the Module
+
+1. Log in to your **Perfex CRM** admin panel
+2. Go to **Setup** → **Modules**
+3. Click **Upload Module** or **Add New Module**
+4. Select the downloaded zip file
+5. Click **Upload**
+6. If prompted, click **Refresh** to see the new module
+
+---
+
+### 3. ✅ Enable the Module
+
+1. Find **Assets Management** in the modules list
+2. Click **Enable** or **Activate**
+3. If a migration screen appears, click **Run Migrations** to apply database updates
+
+---
+
+### 4. 🔑 Enter License Key
+
+1. You'll be redirected to the module activation page
+2. Enter your **Envato License Key** (from your CodeCanyon download)
+3. Click **Activate**
+4. Wait for verification — you should see a success message
+
+---
+
+### 5. 🎉 You're Done!
+
+The **Assets** menu will appear in your sidebar. You can now:
+
+- Go to **Assets** → **Settings** to configure groups, units, and locations
+- Go to **Assets** → **Assets** to create your first asset
+- Go to **Assets** → **Dashboard** for an overview
+
+---
+
+### 🚨 Troubleshooting
+
+| Issue | Solution |
+|-------|----------|
+| Module doesn't appear after upload | Refresh the page; check file permissions |
+| Activation fails | Verify license key; ensure no typos |
+| Migrations required | Always run migrations when prompted |
+| "Module failed verification" | Contact support with your purchase code |
+
+---
+
+### 📌 Important Notes
+
+- **One license per domain** — Each Perfex installation needs its own license
+- **Keep Perfex updated** — Module requires Perfex 2.3.* or higher
+- **Backup first** — Always backup your database before major updates

@@ -1,7 +1,7 @@
 ---
 description: >-
   How to add more quantity to existing assets using Asset Management module for
-  Concord CRM
+  Perfex CRM
 ---
 
 # ➕ Adding Additional Asset

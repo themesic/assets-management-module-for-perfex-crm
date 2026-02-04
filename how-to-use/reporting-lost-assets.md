@@ -1,82 +1,92 @@
 ---
-description: >-
-  How to report and track lost or missing assets using Asset Management module
-  for Concord CRM
+description: How to report lost assets in the Asset Management module
 ---
 
 # 🔍 Reporting Lost Assets
 
-When assets go missing, get lost, or cannot be located, the Asset Lost Report feature helps you document these incidents and maintain accurate inventory records.
+When an asset is lost, stolen, or cannot be located, use the **Report Lost** feature to document the loss, update inventory, and maintain compliance records.
 
-<figure><img src="../.gitbook/assets/Screenshot from 2025-06-03 16-36-33.png" alt=""><figcaption><p>Asset Lost Report</p></figcaption></figure>
+---
 
-### 1. **Access Lost Report Feature**
+## 1. 🚨 When to Report Lost
 
-**From Assets Section:** Navigate to the **Assets** section and click on the specific asset that has missing units. Look for lost report options in the asset detail page.
+- Asset cannot be found after search
+- Asset was stolen
+- Asset was misplaced and considered unrecoverable
+- Asset disappeared (e.g., during move, natural disaster)
 
-**From Asset Lost Reports Section:** Go directly to **Asset Lost Reports** to view all reported missing assets or create new lost reports.
+**Important:** Reporting lost **reduces** the total quantity of the asset. The item is removed from available inventory.
 
-### 2. **Create New Lost Report**
+---
 
-Click on the **New Report** button to start documenting the missing asset. This opens a form designed for capturing all relevant details about the lost items.
+## 2. 📍 Access the Feature
 
-### 3. **Fill in Report Details**
+**From Asset List:**
+1. Go to **Assets** → **Assets**
+2. Click on the asset
+3. Use the **Report Lost** or **Lost** action
 
-#### **Required Information**
+**From Asset Detail:**
+- Open the asset and find the **Report Lost** button in the actions menu
 
-* **Report Code**: System automatically creates a unique code (LR-00000001) for tracking purposes
-* **Asset**: Select which asset has missing units
-* **Quantity**: Enter the exact number of units that are lost or missing
-* **Lost Time**: Set the date and time when the asset was discovered missing
+---
 
-#### **Additional Information**
+## 3. 📝 Fill in Lost Report Details
 
-* **Description**: Provide details about the circumstances - when was it last seen, where it might have been lost, any relevant information that might help locate it
+### Required Information
 
-#### **Reference Information**
+| Field | Description |
+|-------|-------------|
+| **Lost Code** | Auto-generated (e.g., LST-00000001) — editable if needed |
+| **Quantity** | Number of units lost |
+| **Lost Time** | Date and time the loss was discovered or reported |
 
-* **Remaining Quantity**: Shows current available/total quantity to help understand the impact
+### Optional Information
 
-### 4. **Save the Report**
+| Field | Description |
+|-------|-------------|
+| **Description** | Circumstances, location last seen, police report number, etc. |
 
-Click **Save** to complete the lost report. The system will:
+### Reference
 
-* Generate a unique report code for tracking
-* Update the asset's status history
-* Create a permanent record of the incident
-* Link the report to the asset for complete tracking
+- **Remaining Quantity** — Shows current available vs. total before this action
 
+---
 
+## 4. ✅ Save the Report
 
-### 💡 **Key Features**
+Click **Save**. The system will:
 
-#### **Simple Documentation**
+- ✅ Generate a unique lost report code
+- ✅ **Reduce total quantity** of the asset
+- ✅ Update `total_lost` counter
+- ✅ Record the event in inventory history
+- ✅ Log the action in the audit log
+- ✅ Trigger webhook `asset.lost` (if configured)
 
-* **Unique tracking codes** for each report (LR-00000001, LR-00000002, etc.)
-* **Date and time tracking** for accurate records
-* **Detailed descriptions** for context and investigation
-* **Asset linking** for complete history
+---
 
-#### **Easy Management**
+## 5. ⚠️ Validation Rules
 
-* **Quick reporting** process for immediate documentation
-* **Search and filter** capabilities to find specific reports
-* **Organized by date** with most recent first
+- **Quantity** cannot exceed available quantity (total - allocated)
+- **Quantity** must be a positive integer
+- **Lost Time** is required
 
-### 🔍 **Viewing Lost Reports**
+---
 
-#### **Reports Overview**
+## 6. 📊 Impact on Inventory
 
-* **Report Code**: Unique identifier for each incident
-* **Asset**: Which asset is missing
-* **Quantity**: How many units are lost
-* **Lost Time**: When the loss was discovered
-* **Description**: Details about the circumstances
+| Before | Action | After |
+|--------|--------|------|
+| Total: 10, Available: 6 | Report 2 lost | Total: 8, Available: 4, Lost: 2 |
 
-### 📋 **Best Practices**
+Lost items are permanently removed from the asset's quantity. They cannot be "un-lost" — you would need to use **Additional Asset** to add new units if the asset is later found or replaced.
 
-#### **When to Report**
+---
 
-* Report as soon as you discover an asset is missing
-* Don't wait - immediate reporting helps with recovery efforts
-* Document even temporary losses until items are found
+## 💡 Best Practices
+
+- 📋 **Document thoroughly** — Include police report numbers, witness names
+- 🔒 **Review security** — Use loss patterns to improve procedures
+- 📊 **Track trends** — Run reports to identify high-loss categories
+- 🛡️ **Insurance** — Keep records for insurance claims

@@ -1,7 +1,7 @@
 ---
 description: >-
   How to revoke assets from users and return them to inventory using the Asset
-  Management module for Concord CRM
+  Management module for Perfex CRM
 ---
 
 # 🔄 Asset Revocation Management

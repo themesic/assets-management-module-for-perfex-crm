@@ -1,7 +1,7 @@
 ---
 description: >-
   How to liquidate assets and track disposal proceeds using Asset Management
-  module for Concord CRM
+  module for Perfex CRM
 ---
 
 # 💰 Asset Liquidation Management

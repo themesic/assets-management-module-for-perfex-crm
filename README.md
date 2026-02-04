@@ -1,243 +1,186 @@
 ---
 description: >-
-  Efficiently manage your company's assets, track allocations, monitor
-  maintenance, and handle depreciation directly within Concord CRM.
+  Complete asset management for Perfex CRM: track allocations, check-in/out,
+  maintenance, depreciation, reservations, webhooks, and more.
 cover: .gitbook/assets/header.png
 coverY: 0
 ---
 
-# 🏭 Assets Management Module for Concord CRM
+# 🏭 Assets Management Module for Perfex CRM
 
-### Features - What you can do with the Asset Management Module:
+**Version 1.2.0** — The complete solution for managing your company's assets directly within Perfex CRM. Track allocations, monitor maintenance, handle depreciation, manage checkouts & reservations, and stay compliant with full audit trails.
 
-#### ✅ Complete Asset Lifecycle Management
+---
 
-Create and Track Assets
+## ✨ What's New in Version 1.2
 
-* Add new assets with detailed information (name, code, category, price, etc.)
-* Upload asset images and generate QR codes for easy identification
-* Set purchase dates, warranty periods, and depreciation schedules
-* Categorize assets with main categories and subcategories
-* Assign assets to specific locations within your organization
-* Define units of measurement for different asset types
+| Feature | Description |
+|---------|-------------|
+| 📊 **Dashboard** | Real-time analytics, KPIs, and quick actions |
+| 🔄 **Check-in/Check-out** | Temporary asset checkout with due dates & overdue alerts |
+| 📅 **Reservations** | Calendar-based reservation system with approval workflow |
+| 🚚 **Transfers** | Move assets between locations and departments |
+| 📉 **Depreciation** | Dedicated depreciation tracking and schedules |
+| 📈 **Reports** | Export to PDF, Excel, CSV (assets, depreciation, maintenance, audit) |
+| 📥 **Import** | Bulk import assets from CSV |
+| 📋 **Audit Log** | Complete activity trail for compliance |
+| 🔗 **Webhooks** | Integrate with external systems (Zapier, APIs) |
+| 🏷️ **Custom Fields** | Extend asset data with custom properties |
+| 📁 **Project Integration** | Assign assets to projects |
+| 🔔 **Smart Notifications** | Warranty expiry, maintenance due, overdue checkouts |
+| 📱 **Client Portal** | Clients can view their allocated assets |
 
-#### 📋 Asset Allocation & Assignment
+---
 
-Smart Allocation System
+## 🎯 Core Features
 
-* Assign assets to companies
-* Allocate specific quantities to individual users
-* Track who has what assets and when they received them
-* Monitor available vs. allocated quantities in real-time
+### ✅ Complete Asset Lifecycle Management
 
-Automated Notifications
+- **Create & Track Assets** — Add assets with name, code, category, price, purchase date, warranty, depreciation
+- **Upload Images** — Attach photos for easy identification
+- **QR Codes & Barcodes** — Auto-generate for physical asset verification
+- **Categorize** — Use groups (subcategories), units, and locations
+- **Assign to Clients** — Link assets to customers with client portal visibility
 
-* Get notified when assets are initially assigned to your company
-* Receive alerts when assets are allocated to you personally
-* Stay informed when assets are revoked or returned
+### 📋 Allocation & Revocation
 
-#### 🔧 Maintenance Management
+- **Allocate to Staff** — Assign assets to team members with quantity tracking
+- **Revoke Assets** — Return assets to inventory with full documentation
+- **Real-time Availability** — Monitor allocated vs. available quantities
+- **Automated Notifications** — Users notified on allocation and revocation
 
-Preventive Maintenance Tracking
+### 🔄 Check-in / Check-out
 
-* Schedule maintenance for assets with expected completion dates
-* Track assets currently under maintenance
-* Set expected return dates for maintenance items
-* Monitor maintenance history for each asset
+- **Temporary Checkouts** — Check out assets to staff or clients with expected return dates
+- **Overdue Alerts** — Automated notifications when items are overdue
+- **Condition Tracking** — Record condition at checkout and return
+- **Quantity Support** — Check out multiple units at once
 
-Maintenance Workflow
+### 📅 Reservations
 
-* When assets go to maintenance, available quantity is automatically reduced
-* Set expected return dates and receive automated reminders
-* Mark assets as available when maintenance is completed early
-* Get notifications when assets are released from maintenance
+- **Reserve in Advance** — Book assets for future use
+- **Approval Workflow** — Pending → Approved/Rejected
+- **Availability Check** — Prevents double-booking
+- **Calendar View** — Visual reservation overview
 
-#### 📊 Financial Tracking & Depreciation
+### 🔧 Maintenance Management
 
-Depreciation Management
+- **Schedule Maintenance** — Preventive, corrective, inspection, calibration
+- **Recurring Maintenance** — Auto-schedule next maintenance after completion
+- **Vendor Tracking** — Store vendor name and contact
+- **Cost Tracking** — Record maintenance costs
+- **Due Alerts** — Notifications 7 days before scheduled maintenance
 
-* Set depreciation periods for assets
-* Define salvage values for end-of-life calculations
-* Track book values and accumulated depreciation automatically
-* Identify fully depreciated assets
+### 📊 Financial Tracking & Depreciation
 
-#### 📱 QR Code Integration
+- **Depreciation Periods** — Set depreciation in months
+- **Salvage Values** — End-of-life calculations
+- **Book Values** — Track accumulated depreciation automatically
+- **Depreciation Reports** — Export for accounting
 
-Easy Asset Identification
+### 📈 Reports & Analytics
+
+- **Assets List Report** — Export all assets (PDF, Excel, CSV)
+- **Depreciation Report** — Original value, depreciation, residual value
+- **Maintenance Report** — Schedule and history
+- **Checkout Report** — Check-in/out history
+- **Audit Report** — Complete activity trail
+- **Utilization Report** — Asset usage statistics
 
-* Auto-generate QR codes for each asset
-* Scan codes for quick asset lookup and management
-* Perfect for physical asset verification and audits
+### 🔗 Webhooks & Integrations
 
-#### 📈 Comprehensive Reporting
+- **20+ Events** — asset.created, asset.allocated, asset.checked_out, alerts, etc.
+- **HMAC Signature** — Secure payload verification
+- **Logs & Retry** — View webhook logs and retry failed calls
+- **Connect to Zapier, Make, or custom APIs**
 
-Asset Status Tracking
+### 📋 Audit Log
 
-* View complete history of asset actions (created, allocated, revoked, maintenance)
-* Track status changes with timestamps and responsible users
-* Generate asset summary reports for auditing
+- **Every Action Logged** — Created, updated, allocated, revoked, transferred, etc.
+- **IP & User Agent** — Full traceability
+- **Old vs. New Values** — See what changed
+- **Filter by Asset** — Focus on specific assets
 
-Loss & Damage Management
+---
 
-* Report lost or broken assets
-* Track asset liquidations and disposals
-* Maintain complete audit trails for compliance
+## 🧭 Quick Start Guide
 
-{% embed url="https://youtu.be/kVxNLqnbDpc" %}
+### 1. 📦 Create Your First Asset
 
-### 🧭 How to Use the Asset Management Module
-
-#### 1. 📦 Create a New Asset
-
-Go to Assets from the CRM menu
-
-* Click "Add New Asset"
-* Fill in required information:
-  * Asset name (required)
-  * Asset code (auto-generated but editable)
-  * Category and subcategory (required)
-  * Assign to company (optional)
-  * Quantity and unit of measurement
-  * Unit price and purchase date
-  * Location (optional)
-  * Serial number (auto-generated if not provided)
-  * Warranty period (in months)
-  * Depreciation period (in years)
-  * Salvage value
-  * Model and supplier information
-  * Description and images
-
-Click Save - The system will:
-
-* Generate a QR code automatically
-* Send notification to the assigned company
-* Record the creation in asset history
-
-#### 2. 🏢 Manage Asset Subcategories
-
-Set Up Subcategories:
-
-* Go to Asset Subcategories
-* Create main Subcategories (e.g., Laptops", "Desktops")
-* Define units of measurement (pieces, sets, meters, etc.)
-
-#### 3. 📍 Configure Locations
-
-Location Management:
-
-* Set up locations where assets can be stored or used
-* Assign assets to specific locations for better tracking
-* Move assets between locations as needed
-
-#### 4. 👥 Allocate Assets to Users
-
-Allocation Process:
-
-* Select an asset from your assets list
-* Choose "Allocate" action
-* Select the user to receive the asset
-* Specify quantity to allocate
-* Add notes if needed
-* The user will receive an automatic notification
-
-#### 5. 🔄 Handle Asset Returns
-
-Revocation Process:
-
-* Go to allocated assets
-* Select "Revoke" action
-* Specify quantity to return
-* Add return notes
-* User will be notified of the revocation
-* Available quantity is automatically updated
-
-#### 6. 🛠️ Maintenance Management
-
-Schedule Maintenance:
-
-* Select assets needing maintenance
-* Mark as "Under Maintenance"
-* Set expected completion date
-* Revoked User will receive notification
-
-Complete Maintenance:
-
-* When maintenance is done early, use "Mark Retrieved" action
-* System sends completion notification
-* Available quantity is restored automatically
-* Scheduled reminder emails are cancelled
-
-#### 7. 📊 Monitor Asset Status
-
-Asset History:
-
-* View complete timeline of each asset
-* See all allocations, revocations, and maintenance activities
-* Track who had the asset and when
-* Export history for reporting purposes
-
-Dashboard Analytics:
-
-* View depreciation statistics
-* Monitor asset values and trends
-* Track maintenance schedules
-* Generate compliance reports
-* <br>
-
-### 💡 Common Use Cases
-
-#### 🖥️ IT Equipment Management
-
-* Track laptops, monitors, and peripherals
-* Allocate equipment to new employees
-* Schedule regular maintenance and updates
-* Monitor warranty periods and replacements
-
-#### 🪑 Office Furniture & Equipment
-
-* Manage desks, chairs, and office supplies
-* Track furniture assignments to departments
-* Handle office relocations and space planning
-* Monitor depreciation for accounting purposes
-
-#### 🚗 Vehicle Fleet Management
-
-* Track company vehicles and their assignments
-* Schedule regular maintenance and inspections
-* Monitor fuel costs and usage patterns
-* Handle vehicle lifecycle and replacements
-
-#### 🏭 Manufacturing Equipment
-
-* Track production machinery and tools
-* Schedule preventive maintenance
-* Monitor equipment utilization and efficiency
-* Manage spare parts and consumables
-
-#### 📱 Mobile Device Management
-
-* Track phones, tablets, and accessories
-* Manage device assignments to employees
-* Handle device upgrades and replacements
-* Monitor data plans and usage
-
-### 🚀 Getting Started Tips
-
-#### ✅ Initial Setup Checklist
-
-1. Configure Categories: Set up your asset categories and subcategories first in Asset Setting
-2. Define Locations: Create locations where assets will be stored or used
-3. Set Up Units: Define measurement units for different asset types
-4. Configure Notifications: Ensure email notifications are properly set up
-
-#### 📋 Best Practices
-
-* Consistent Naming: Use clear, consistent naming conventions for assets
-* Regular Audits: Periodically verify physical assets against system records
-* Maintenance Schedules: Set up proactive maintenance schedules to extend asset life
-* Documentation: Keep detailed records of purchases, warranties, and repairs
-* QR Code Usage: Print and attach QR codes to physical assets for easy scanning
-
-Need Help? Contact your system administrator or refer to the Concord CRM support documentation for technical assistance.
-
-<br>
+1. Go to **Assets** → **Assets** from the sidebar
+2. Click **New Asset**
+3. Fill in: Name, Code, Category, Quantity, Unit, Price, Purchase Date
+4. Optionally add: Location, Warranty, Depreciation, Supplier, Image
+5. Click **Save** — QR code is auto-generated
+
+### 2. ⚙️ Configure Settings
+
+1. Go to **Assets** → **Settings**
+2. Add **Asset Groups** (e.g., Laptops, Furniture)
+3. Add **Units** (pieces, sets, meters)
+4. Add **Locations** (Warehouse, Office A, etc.)
+
+### 3. 🎯 Allocate or Check Out
+
+- **Allocation** — Permanent assignment to staff (Assets → Allocation)
+- **Check-out** — Temporary use with return date (Assets → Check-in/out)
+
+### 4. 📊 Monitor Your Assets
+
+- **Dashboard** — Overview of totals, overdue items, maintenance due
+- **Reports** — Export data for accounting and audits
+
+---
+
+## 💡 Common Use Cases
+
+| Use Case | How the Module Helps |
+|----------|----------------------|
+| 🖥️ **IT Equipment** | Track laptops, monitors; allocate to new hires; schedule updates |
+| 🪑 **Office Furniture** | Manage desks, chairs; track assignments by department |
+| 🚗 **Vehicle Fleet** | Track vehicles; schedule maintenance; monitor insurance |
+| 🏭 **Manufacturing** | Schedule preventive maintenance; track utilization |
+| 📱 **Mobile Devices** | Check out phones/tablets; track returns and condition |
+
+---
+
+## 🚀 Best Practices
+
+- ✅ **Set up groups, units, and locations first** before creating assets
+- ✅ **Use consistent naming** for assets and codes
+- ✅ **Enable notifications** for warranty expiry and maintenance due
+- ✅ **Print QR codes** and attach to physical assets
+- ✅ **Run regular reports** for compliance and audits
+- ✅ **Configure webhooks** to sync with your other tools
+
+---
+
+## 📚 Documentation Index
+
+- [⚡ Requirements](getting-started/requirements.md)
+- [🛠️ Activating the Module](getting-started/activating-the-module.md)
+- [⚙️ Predefined Settings](predefined-settings-of-assets.md)
+- [📦 Creating an Asset](how-to-use/creating-an-asset.md)
+- [➕ Adding Additional Asset](how-to-use/adding-additional-asset.md)
+- [🎯 Allocating Assets](how-to-use/allocating-assets.md)
+- [🔄 Revoking Assets](how-to-use/asset-revocation-management.md)
+- [🔄 Check-in/Check-out](how-to-use/check-in-check-out.md)
+- [📅 Reservations](how-to-use/reservations.md)
+- [🚚 Transfers](how-to-use/transfers.md)
+- [🔧 Maintenance](how-to-use/asset-maintenance-management.md)
+- [📉 Depreciation](how-to-use/depreciation.md)
+- [⚠️ Reporting Broken](how-to-use/reporting-broken-assets.md)
+- [🔍 Reporting Lost](how-to-use/reporting-lost-assets.md)
+- [💰 Liquidation](how-to-use/asset-liquidation-management.md)
+- [🛡️ Warranty](how-to-use/asset-warranty-management.md)
+- [📈 Reports & Export](how-to-use/reports-and-export.md)
+- [📥 Import Assets](how-to-use/import-assets.md)
+- [📋 Audit Log](how-to-use/audit-log.md)
+- [🔗 Webhooks](how-to-use/webhooks.md)
+- [🏷️ Custom Fields](how-to-use/custom-fields.md)
+- [📁 Project Integration](how-to-use/project-integration.md)
+- [📊 Dashboard & Analytics](how-to-use/dashboard-and-analytics.md)
+
+---
+
+Need help? Contact your system administrator or refer to [Perfex CRM documentation](https://codecanyon.net/item/perfex-powerful-open-source-crm/14058437) for technical support.

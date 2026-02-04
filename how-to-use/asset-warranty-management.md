@@ -1,7 +1,7 @@
 ---
 description: >-
   How to report warranty claims and track asset repairs using the Asset
-  Management module for Concord CRM
+  Management module for Perfex CRM
 ---
 
 # 🛡️ Asset Warranty Management

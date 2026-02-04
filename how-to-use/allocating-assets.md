@@ -1,7 +1,7 @@
 ---
 description: >-
   How to assign assets to users and track their usage using Asset Management
-  module for Concord CRM
+  module for Perfex CRM
 ---
 
 # 🎯 Allocating Assets

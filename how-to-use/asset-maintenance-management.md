@@ -1,7 +1,7 @@
 ---
 description: >-
   How to send assets for maintenance, track service progress, and retrieve
-  assets back to inventory using the Asset Management module for Concord CRM
+  assets back to inventory using the Asset Management module for Perfex CRM
 ---
 
 # 🔧 Asset Maintenance Management

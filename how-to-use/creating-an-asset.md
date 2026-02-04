@@ -1,10 +1,10 @@
 ---
-description: How to create a new Asset using Asset Management module for Concord CRM
+description: How to create a new Asset using Asset Management module for Perfex CRM
 ---
 
 # 📦 Creating an Asset
 
-To create an asset in Concord CRM using the Asset Management module, follow these steps:
+To create an asset in Perfex CRM using the Asset Management module, follow these steps:
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
