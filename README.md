@@ -38,7 +38,7 @@ coverY: 0
 
 - **Create & Track Assets** — Add assets with name, code, category, price, purchase date, warranty, depreciation
 - **Upload Images** — Attach photos for easy identification
-- **QR Codes & Barcodes** — Auto-generate for physical asset verification
+- **QR Codes & Barcodes** — Generate on demand via button in the asset view for physical verification
 - **Categorize** — Use groups (subcategories), units, and locations
 - **Assign to Clients** — Link assets to customers with client portal visibility
 
@@ -111,7 +111,7 @@ coverY: 0
 2. Click **New Asset**
 3. Fill in: Name, Code, Category, Quantity, Unit, Price, Purchase Date
 4. Optionally add: Location, Warranty, Depreciation, Supplier, Image
-5. Click **Save** — QR code is auto-generated
+5. Click **Save** — then open the asset and use the **Generate QR Code** or **Generate Barcode** button in the asset view when needed
 
 ### 2. ⚙️ Configure Settings
 
@@ -149,7 +149,7 @@ coverY: 0
 - ✅ **Set up groups, units, and locations first** before creating assets
 - ✅ **Use consistent naming** for assets and codes
 - ✅ **Enable notifications** for warranty expiry and maintenance due
-- ✅ **Print QR codes** and attach to physical assets
+- ✅ **Generate and print QR codes/barcodes** (via button in asset view) and attach to physical assets
 - ✅ **Run regular reports** for compliance and audits
 - ✅ **Configure webhooks** to sync with your other tools
 

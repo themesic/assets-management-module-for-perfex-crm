@@ -65,7 +65,6 @@ Once all details are entered, review the asset information for accuracy. Ensure 
 
 Click **Save** to create the asset. The system will automatically:
 
-* Generate a unique QR code for the asset
 * Create an asset code if you haven't customized it
 * Generate a serial number if not provided
 * Set the available quantity equal to the total quantity
@@ -81,10 +80,19 @@ Click **Save** to create the asset. The system will automatically:
 After successful creation:
 
 * The asset appears in your **Assets** list with status "Available"
-* A **QR code** is generated for physical asset tagging
 * The assigned company receives an **email notification**
 * The asset is ready for allocation to individual users
 * **Financial tracking** begins if depreciation period is set
+
+### 7. **Generate QR Code or Barcode**
+
+QR codes and barcodes are **not** generated automatically. To create them:
+
+1. Open the asset (click on it from the Assets list)
+2. In the asset detail view, find and click the **Generate QR Code** or **Generate Barcode** button
+3. The code is generated on demand and can be printed for physical asset tagging
+
+Use these codes for quick scanning during audits, checkouts, or inventory counts.
 
 ### 💡 **Pro Tips**
 
@@ -92,4 +100,4 @@ After successful creation:
 * **Upload images**: Photos help with asset identification and audits
 * **Set warranty periods**: This helps track when assets need replacement
 * **Configure depreciation**: Important for accounting and financial reporting
-* **Print QR codes**: Attach them to physical assets for easy scanning and management
+* **Generate QR codes/barcodes**: Use the button in the asset view, then print and attach to physical assets for easy scanning and management
