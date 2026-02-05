@@ -8,8 +8,6 @@ description: >-
 
 When assets break down or malfunction and are covered under warranty, the Asset Warranty feature helps you document warranty claims, track repair costs, and maintain accurate records for asset protection and cost recovery.
 
-<figure><img src="../.gitbook/assets/Screenshot from 2025-06-03 17-25-31.png" alt=""><figcaption><p>Asset Warranty</p></figcaption></figure>
-
 ### 1. **Access Warranty Feature**
 
 **From Assets Section:** Navigate to the **Assets** section and click on the specific asset that needs warranty service. Look for warranty options in the asset detail page.

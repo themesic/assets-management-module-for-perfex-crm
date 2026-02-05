@@ -8,8 +8,6 @@ description: >-
 
 When assets need to be recalled from users, returned to inventory, or reassigned to different personnel, the Asset Revocation feature helps you manage the complete return process with proper documentation and notifications.
 
-<figure><img src="../.gitbook/assets/Screenshot from 2025-06-03 16-51-47.png" alt=""><figcaption><p>Asset Revoke</p></figcaption></figure>
-
 ### 1. **Access Revocation Feature**
 
 **From Assets Section:** Navigate to the **Assets** section and click on the specific asset that needs to be revoked. Look for revocation options in the asset detail page.

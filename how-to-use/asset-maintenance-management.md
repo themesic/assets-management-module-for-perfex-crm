@@ -8,8 +8,6 @@ description: >-
 
 When assets need repair, servicing, or preventive maintenance, the Asset Maintenance feature helps you manage the entire maintenance lifecycle from sending assets to service providers through completion and retrieval.
 
-<figure><img src="../.gitbook/assets/Screenshot from 2025-06-03 16-41-25.png" alt=""><figcaption></figcaption></figure>
-
 ### 1. **Access Maintenance Feature**
 
 **From Assets Section:** Navigate to the **Assets** section and click on the specific asset that needs maintenance. Look for maintenance options in the asset detail page.
@@ -74,10 +72,6 @@ Click **Save** to complete the maintenance request. The system will:
 * Notifications sent to asset company/owner for action
 
 #### **Maintenance Retrieval Process**
-
-<figure><img src="../.gitbook/assets/Screenshot from 2025-06-03 16-42-15 (1).png" alt=""><figcaption><p>Maintenance Retrieval</p></figcaption></figure>
-
-
 
 **When Assets Are Ready**
 
@@ -164,4 +158,3 @@ Click **Save** to complete the maintenance request. The system will:
 * Automatic notifications require proper company/user setup
 * Maintenance records cannot be easily deleted to maintain audit trail
 * Retrieved assets automatically restore inventory availability
-

@@ -8,8 +8,6 @@ description: >-
 
 When you need to assign assets to users (like giving laptops to employees or allocating equipment to departments), the Asset Allocation feature helps you track who has what, when they received it, and manage the entire allocation lifecycle.
 
-<figure><img src="../.gitbook/assets/Screenshot from 2025-06-03 16-22-56.png" alt=""><figcaption><p>ASSET ALLOCATION</p></figcaption></figure>
-
 ### 1. **Access Asset Allocation**
 
 **From Assets Section:** Navigate to the **Assets** section and click on the specific asset you want to allocate. In the asset detail page, you'll find allocation-related options.
@@ -106,8 +104,6 @@ Click **Save** to complete the allocation. The system automatically:
 * **Quantity**: How many units allocated
 * **Allocated To**: User who received the asset
 * **Allocation Time**: When the allocation was made
-
-
 
 ### 📋 **Best Practices**
 

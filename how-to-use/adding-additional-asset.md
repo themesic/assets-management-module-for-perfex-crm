@@ -8,8 +8,6 @@ description: >-
 
 When you need to add more quantity to an existing asset (like purchasing additional laptops of the same model), follow these steps:
 
-<figure><img src="../.gitbook/assets/Screenshot from 2025-06-03 16-15-04.png" alt=""><figcaption><p>Asset Additional</p></figcaption></figure>
-
 ### 1. **Access the Asset Details**
 
 Navigate to the **Assets** section and click on the specific asset you want to add quantity to. This will open the asset detail page with multiple tabs.

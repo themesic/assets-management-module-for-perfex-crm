@@ -6,8 +6,6 @@ description: How to create a new Asset using Asset Management module for Perfex 
 
 To create an asset in Perfex CRM using the Asset Management module, follow these steps:
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
-
 ### 1. **Access the Assets Section**
 
 Navigate to the **Assets** section from the main dashboard or the sidebar menu. This is where you can manage and create all assets for your organization.
@@ -70,10 +68,6 @@ Click **Save** to create the asset. The system will automatically:
 * Set the available quantity equal to the total quantity
 * Send a notification to the assigned company
 * Record the asset creation in the system timeline
-
-
-
-<figure><img src="../.gitbook/assets/Screenshot from 2025-06-03 16-11-49.png" alt=""><figcaption><p>Asset Detail</p></figcaption></figure>
 
 ### 6. **What Happens Next**
 

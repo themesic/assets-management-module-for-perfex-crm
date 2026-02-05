@@ -8,8 +8,6 @@ description: >-
 
 When assets reach end-of-life, become obsolete, or need to be disposed of for other reasons, the Asset Liquidation feature helps you document the disposal process, track financial recovery, and maintain complete records for accounting and compliance purposes.
 
-<figure><img src="../.gitbook/assets/Screenshot from 2025-06-03 16-32-11.png" alt=""><figcaption><p>Asset Liquidation</p></figcaption></figure>
-
 ### 1. **Access Asset Liquidation**
 
 **From Assets Section:** Navigate to the **Assets** section and click on the specific asset you want to liquidate. Look for liquidation options in the asset detail page.
